@@ -1,0 +1,391 @@
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+
+[Charles Spender's comment] 
+-- Amazon used YUI code and I modified Amazon's code
+
+[Michael J Buckley's comment]
+altered for my 60 Ways To Leave Your Mother (Alone)
+*/
+
+@font-face{
+
+font-family:print_clearly_ot;
+ font-style:normal;
+ font-weight:normal;
+ src:url(../fonts/print_clearly_ot.otf);
+
+}
+.copyright_background_image {
+    background-image: url("../images/Page0.copyright.jpg");
+}
+.copyright,
+.toc {
+    font-family: print_clearly_ot, arial, helvetica, sans-serif;
+}
+
+.toc a {
+    text-decoration: none;
+    font-size: 18px;
+color:black;
+}
+
+.copyright {
+    font-weight: normal;
+    color: #090170;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1;
+    width: 340px;
+    height: 600px;
+    margin: 200px 150px 0 150px;
+}
+.columncontainer1 {
+    width: 605px;
+    position: relative;
+    border: 0px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.columncontainer2 {
+    float: left;
+    position: relative;
+    right: 195px;
+}
+.columncontainer3 {
+    float: left;
+    position: relative;
+    right: 195px;
+}
+.columncontent1 {
+    float: left;
+    width: 175px;
+    position: relative;
+    left: 390px;
+    padding: 10px;
+    overflow: hidden;
+}
+.columncontent2 {
+    float: left;
+    width: 175px;
+    position: relative;
+    left: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+.columncontent3 {
+    float: left;
+    width: 175px;
+    position: relative;
+    left: 410px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+div.FixedPage {
+    height: 1024px;
+    width: 640px;
+    position: relative;
+}
+div.FixedPage a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div.FixedPage div {
+    position: absolute;
+}
+.OnePageOneImage {
+    position: absolute;
+    height: 1024px;
+    width: 640px;
+}
+/* Region magnification code starts here */
+
+div.popup-box {
+    position: absolute;
+    display: block;
+    /* invisible unless activated */
+    overflow: hidden;
+    /* black border and color of the pop-up box */
+    border: 1px solid #000000;
+    background-color: #FFFFEF;
+}
+/* 
+ This container hosts the lightbox and the image.
+ */
+
+div.popup-box-parent {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+div.popup-box-lightbox {
+    /* the lightbox effect dims the whole page except the popup box */
+    width: 100%;
+    height: 100%;
+    background: #333333;
+    opacity: .8;
+}
+/* default magnification of images 150% */
+
+div.popup-box img {
+    position: absolute;
+    height: 1536px;
+    width: 960px;
+}
+/*  four magnification areas within a full-screen picture (PORTRAIT 4X LAYOUT) :
+1) top left corner "quadropanel_11"
+2) top right corner "quadropanel_12"
+3) bottom left corner "quadropanel_21"
+4) bottom right corner "quadropanel_22" */
+
+/* magnification of top left corner (PORTRAIT 4X LAYOUT) */
+
+#quadropanel_11 {
+    /* this code specifies the location and size of the tap (or click) target area 
+on a page (remember that each page is 1024 x 600 pixels); 
+the starting point is the top left corner of the page;
+the 'top' and 'left' attributes show where the top left corner of the tap target area is located on the page;
+units are percentages of either width or height (whichever is applicable)
+*/
+    top: 0.3%;
+    left: 0.3%;
+    height: 49.7%;
+    width: 49.7%;
+}
+#quadropanel_11-PopupBox {
+    /* this code specifies the location and size of the box that pops up
+after the customer double-clicks the tap area (described above); 
+the starting point is the top left corner of the page;
+the 'top' and 'left' attributes show where the top left corner of the pop-up box is located on the page;
+units are percentages of either width or height (whichever is applicable, 
+remember that each page is 1024 x 600 pixels)
+*/
+    top: 0%;
+    left: 0%;
+    height: 74.5%;
+    width: 74.5%;
+}
+#quadropanel_11-PopupBox img {
+    /*
+this code specifies which portion of the page (of the source image) will be displayed within the pop-up box; 
+the starting point is the top left corner of the source image;
+the 'top' and 'left' attributes show where the top left corner of the pop-up box is located within the source image;
+note that the coordinates are typically negative values and reflect magnification of the source image;
+I don't know why, but {in a portrait-oriented ebook, 4 panels per page} 
+you need to mulitply the "left" percentage by munus 2 and the "top" percentage by minus 2 and then adjust them slightly until you hit the target.
+(for example, I took the left and top attributes from the "quadropanel_11" class {see above}, multiplied them by -2 and then tested and adjusted them)
+*/
+    top: -0.3%;
+    left: -0.3%;
+}
+/* magnification of top right corner (PORTRAIT 4X LAYOUT) */
+
+#quadropanel_12 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 0.3%;
+    left: 50.3%;
+    height: 49.7%;
+    width: 49.7%;
+}
+#quadropanel_12-PopupBox {
+    top: 0%;
+    left: 25.2%;
+    height: 74.5%;
+    width: 74.5%;
+}
+#quadropanel_12-PopupBox img {
+    top: -0.3%;
+    left: -101.3%;
+}
+/* magnification of bottom left panel (PORTRAIT 4X LAYOUT) */
+
+#quadropanel_21 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 50.3%;
+    left: 0.3%;
+    height: 49.7%;
+    width: 49.7%;
+}
+#quadropanel_21-PopupBox {
+    top: 25.4%;
+    left: 0%;
+    height: 74.5%;
+    width: 74.5%;
+}
+#quadropanel_21-PopupBox img {
+    top: -101.4%;
+    left: -0.3%;
+}
+/* magnification of bottom right panel (PORTRAIT 4X LAYOUT) */
+
+#quadropanel_22 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 50.3%;
+    left: 50.3%;
+    height: 49.7%;
+    width: 49.7%;
+}
+#quadropanel_22-PopupBox {
+    top: 25.4%;
+    left: 25.2%;
+    height: 74.5%;
+    width: 74.5%;
+}
+#quadropanel_22-PopupBox img {
+    top: -101.4%;
+    left: -101.3%;
+}
+/* end of code for the PORTRAIT 4X LAYOUT */
+
+/*  six magnification areas within a full-screen picture (PORTRAIT 6X LAYOUT) :
+1) top left corner "panel_11"
+2) top right corner "panel_12"
+3) center left "panel_21"
+4) center right "panel_22"
+5) bottom left corner "panel_31"
+6) bottom right corner "panel_32" */
+
+/* magnification of top left corner (PORTRAIT 6X LAYOUT) */
+
+#panel_11 {
+    /* this code specifies the location and size of the tap (or click) target area 
+on a page (remember that each page is 1024 x 600 pixels); 
+the starting point is the top left corner of the page;
+the 'top' and 'left' attributes show where the top left corner of the tap target area is located on the page;
+units are percentages of either width or height (whichever is applicable)
+*/
+    top: 0.3%;
+    left: 0.3%;
+    height: 33%;
+    width: 49.7%;
+}
+#panel_11-PopupBox {
+    /* this code specifies the location and size of the box that pops up
+after the customer double-clicks the tap area (described above); 
+the starting point is the top left corner of the page;
+the 'top' and 'left' attributes show where the top left corner of the pop-up box is located on the page;
+units are percentages of either width or height (whichever is applicable, 
+remember that each page is 1024 x 600 pixels)
+*/
+    top: 0%;
+    left: 0%;
+    height: 49.4%;
+    width: 74.6%;
+}
+#panel_11-PopupBox img {
+    /*
+this code specifies which portion of the page (of the source image) will be displayed within the pop-up box; 
+the starting point is the top left corner of the source image;
+the 'top' and 'left' attributes show where the top left corner of the pop-up box is located within the source image;
+note that the coordinates are typically negative values and reflect magnification of the source image;
+I don't know why, but {in a portrait-oriented ebook, 6 panels per page} 
+you need to mulitply the "left" percentage by munus 2 and the "top" percentage by minus 3 and then adjust them slightly until you hit the target.
+(for example, I took the left and top attributes from the "panel_11" class {see above}, multiplied them by -2 and -3 respectively, and then tested and adjusted them)
+*/
+    top: -0.9%;
+    left: -0.4%;
+}
+/* magnification of top right corner (PORTRAIT 6X LAYOUT) */
+
+#panel_12 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 0.3%;
+    left: 50.3%;
+    height: 33%;
+    width: 49.7%;
+}
+#panel_12-PopupBox {
+    top: 0%;
+    left: 25.2%;
+    height: 49.4%;
+    width: 74.6%;
+}
+#panel_12-PopupBox img {
+    top: -0.9%;
+    left: -101.3%;
+}
+/* magnification of center left panel (PORTRAIT 6X LAYOUT) */
+
+#panel_21 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 33.6%;
+    left: 0.3%;
+    height: 33%;
+    width: 49.7%;
+}
+#panel_21-PopupBox {
+    top: 25.5%;
+    left: 0%;
+    height: 49.4%;
+    width: 74.6%;
+}
+#panel_21-PopupBox img {
+    top: -102.3%;
+    left: -0.4%;
+}
+/* magnification of center right panel (PORTRAIT 6X LAYOUT) */
+
+#panel_22 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 33.6%;
+    left: 50.3%;
+    height: 33%;
+    width: 49.7%;
+}
+#panel_22-PopupBox {
+    top: 25.5%;
+    left: 25.2%;
+    height: 49.4%;
+    width: 74.6%;
+}
+#panel_22-PopupBox img {
+    top: -102.3%;
+    left: -101.3%;
+}
+/* magnification of bottom left corner (PORTRAIT 6X LAYOUT) */
+
+#panel_31 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 66.9%;
+    left: 0.3%;
+    height: 33%;
+    width: 49.7%;
+}
+#panel_31-PopupBox {
+    top: 50.5%;
+    left: 0%;
+    height: 49.4%;
+    width: 74.6%;
+}
+#panel_31-PopupBox img {
+    top: -203.8%;
+    left: -0.4%;
+}
+/* magnification of bottom right corner (PORTRAIT 6X LAYOUT) */
+
+#panel_32 {
+    /* the meaning of this code is described above for the top left panel */
+    top: 66.9%;
+    left: 50.3%;
+    height: 33%;
+    width: 49.7%;
+}
+#panel_32-PopupBox {
+    top: 50.5%;
+    left: 25.2%;
+    height: 49.4%;
+    width: 74.6%;
+}
+#panel_32-PopupBox img {
+    top: -203.8%;
+    left: -101.3%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+
+<style type="text/css">
+#full_screen_pic 
+{ 
+	background-image: url("../images/Page6.jpg");
+}
+</style>
+<!-- the above is the preferred method for coding a full-screen picture in a fixed-layout Kindle book -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+<!-- container for the whole fixed-layout page -->
+<div class="FixedPage"> 
+	<!-- full-screen picture, a.k.a. background image -->
+	<div id="full_screen_pic" class="OnePageOneImage">  
+	</div>
+
+<!-- region magnification code starts here; this is boilerplate and you shouldn't try to understand it;
+in brief, the code will magnify by 150% an area of a page if the customer double-clicks (double-taps) 
+this area (one of four panels on a page of a comic book); 
+see the style.css file for more details on how region magnification works; -->
+	<div id="quadropanel_11">  <!-- top left panel (tap area, where double-tapping the screen will cause the magnified popup box to appear) -->
+		<a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"quadropanel_11-PopupBoxParent", "ordinal":1}'></a>
+	</div>
+	<div id="quadropanel_12">  <!-- top right panel -->
+		<a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"quadropanel_12-PopupBoxParent", "ordinal":2}'></a>
+	</div>
+	<div id="quadropanel_21">  <!-- bottom left panel -->
+		<a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"quadropanel_21-PopupBoxParent", "ordinal":3}'></a>
+	</div>
+	<div id="quadropanel_22">  <!-- bottom right panel -->
+		<a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"quadropanel_22-PopupBoxParent", "ordinal":4}'></a>
+	</div>
+
+
+	<div id="quadropanel_11-PopupBoxParent" class="popup-box-parent">  <!-- top left popup box -->
+		<div class="popup-box-lightbox"></div>
+		<div id="quadropanel_11-PopupBox" class="popup-box">
+			<img src="../images/Page6.jpg" alt="picture" />
+		</div>
+	</div>
+	<div id="quadropanel_12-PopupBoxParent" class="popup-box-parent">  <!-- top right popup box -->
+		<div class="popup-box-lightbox"></div>
+		<div id="quadropanel_12-PopupBox" class="popup-box">
+			<img src="../images/Page6.jpg" alt="picture" />
+		</div>
+	</div>
+	<div id="quadropanel_21-PopupBoxParent" class="popup-box-parent">  <!-- bottom left popup box -->
+		<div class="popup-box-lightbox"></div>
+		<div id="quadropanel_21-PopupBox" class="popup-box">
+			<img src="../images/Page6.jpg" alt="picture" />
+		</div>
+	</div>
+	<div id="quadropanel_22-PopupBoxParent" class="popup-box-parent">  <!-- bottom right popup box -->
+		<div class="popup-box-lightbox"></div>
+		<div id="quadropanel_22-PopupBox" class="popup-box">
+			<img src="../images/Page6.jpg" alt="picture" />
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
