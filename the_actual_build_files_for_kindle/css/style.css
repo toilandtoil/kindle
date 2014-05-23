@@ -32,17 +32,6 @@ font-family:print_clearly_ot;
     font-size: 18px;
     color: black;
 }
-.columns {
-    -webkit-column-count: 3;
-    -webkit-column-gap: 10px;
-    -webkit-column-rule: 0px dotted black;
-    -moz-column-count: 3;
-    -moz-column-gap: 10px;
-    -moz-column-rule: 0px dotted black;
-    column-count: 3;
-    column-gap: 10px;
-    column-rule: 0px dotted black;
-}
 .copyright {
     font-weight: normal;
     color: #090170;
@@ -55,6 +44,38 @@ font-family:print_clearly_ot;
     height: 600px;
     margin: 200px 150px 0 150px;
 }
+
+.columncontainer1{
+	width:660px;
+	position:relative;
+	border:0px;
+	background-color:#f7f7f7;
+	overflow:hidden;
+}
+.columncontainer2{
+	float:left;
+	position:relative;
+	right:330px;
+}
+.columncontent1{
+	float:left;
+	width:310px;
+	position:relative;
+	left:330px;
+	padding:10px;
+	overflow:hidden;
+}
+.columncontent2{
+	float:left;
+	width:310px;
+	position:relative;
+	left:330px;
+	padding:10px;
+	overflow:hidden;
+}
+
+
+
 
 div.FixedPage {
     height: 1024px;
