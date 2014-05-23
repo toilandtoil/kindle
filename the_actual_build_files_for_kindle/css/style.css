@@ -30,8 +30,28 @@ font-family:print_clearly_ot;
 .toc a {
     text-decoration: none;
     font-size: 18px;
-    color: black;
 }
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li a{
+    padding: 10px 0 0 0;
+    color: gray;
+  font-weight: bold;
+}
+
+ul li {
+    padding: 10px 0 0 0;
+}
+
+ul li:nth-child(odd) a
+{
+  color: black;
+}
+
 .copyright {
     font-weight: normal;
     color: #090170;
@@ -40,16 +60,16 @@ font-family:print_clearly_ot;
     font-size: 25px;
     text-align: justify;
     line-height: 1;
-    width: 340px;
+    width: 440px;
     height: 600px;
-    margin: 200px 150px 0 150px;
+    margin: 100px 100px 100px 100px;
 }
 
 .columncontainer1{
-	width:660px;
+	width:663px;
 	position:relative;
 	border:0px;
-	background-color:#f7f7f7;
+	background-color:#ffffff;
 	overflow:hidden;
 }
 .columncontainer2{
@@ -59,22 +79,20 @@ font-family:print_clearly_ot;
 }
 .columncontent1{
 	float:left;
-	width:310px;
+	width:320px;
 	position:relative;
 	left:330px;
-	padding:10px;
+	padding:5px;
 	overflow:hidden;
 }
 .columncontent2{
 	float:left;
-	width:310px;
+	width:320px;
 	position:relative;
-	left:330px;
-	padding:10px;
+	left:333px;
+	padding:5px;
 	overflow:hidden;
 }
-
-
 
 
 div.FixedPage {

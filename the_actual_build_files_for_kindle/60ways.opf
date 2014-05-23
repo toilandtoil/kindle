@@ -93,6 +93,6 @@
 	</spine>
 	
 	<guide>
-		<reference type="start" title="Start Reading" href="html/Page1.html"/>
+		<reference type="start" title="Start Reading" href="html/TOC.html"/>
 	</guide>		
 </package>
