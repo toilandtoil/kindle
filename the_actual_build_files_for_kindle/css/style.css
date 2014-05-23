@@ -27,67 +27,34 @@ font-family:print_clearly_ot;
 .toc {
     font-family: print_clearly_ot, arial, helvetica, sans-serif;
 }
-
 .toc a {
     text-decoration: none;
     font-size: 18px;
-color:black;
+    color: black;
 }
-
+.columns {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -webkit-column-rule: 0px dotted black;
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -moz-column-rule: 0px dotted black;
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 0px dotted black;
+}
 .copyright {
     font-weight: normal;
     color: #090170;
     letter-spacing: 0pt;
     word-spacing: 0pt;
-    font-size: 18px;
+    font-size: 25px;
     text-align: justify;
     line-height: 1;
     width: 340px;
     height: 600px;
     margin: 200px 150px 0 150px;
 }
-.columncontainer1 {
-    width: 605px;
-    position: relative;
-    border: 0px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-.columncontainer2 {
-    float: left;
-    position: relative;
-    right: 195px;
-}
-.columncontainer3 {
-    float: left;
-    position: relative;
-    right: 195px;
-}
-.columncontent1 {
-    float: left;
-    width: 175px;
-    position: relative;
-    left: 390px;
-    padding: 10px;
-    overflow: hidden;
-}
-.columncontent2 {
-    float: left;
-    width: 175px;
-    position: relative;
-    left: 400px;
-    padding: 10px;
-    overflow: hidden;
-}
-.columncontent3 {
-    float: left;
-    width: 175px;
-    position: relative;
-    left: 410px;
-    padding: 10px;
-    overflow: hidden;
-}
-
 
 div.FixedPage {
     height: 1024px;
