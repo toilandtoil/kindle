@@ -18,8 +18,10 @@ font-family:print_bold_ot;
  font-style:normal;
  font-weight:normal;
  src:url(../fonts/print_bold_ot.otf);
+
 }
 @font-face{
+
 font-family:print_clearly_ot;
  font-style:normal;
  font-weight:normal;
@@ -27,110 +29,108 @@ font-family:print_clearly_ot;
 
 }
 .copyright_background_image {
-    background-image: url("../images/Page0.copyright.jpg");
+    background-image:url("../images/Page0.copyright.jpg");
 }
-
 .toc {
-    font-family: print_bold_ot, arial, helvetica, sans-serif;
+    font-family:print_bold_ot,
+    arial,
+    helvetica,
+    sans-serif;
     width:640px;
-  margin:-5px;
+    margin:-5px;
 }
-
-
-.toc div a{
-  text-decoration: none;
-    font-size: 18px;
-  color:black;
-  padding:7px;
-  background-color:grey;
+.toc div a {
+    text-decoration:none;
+    font-size:18px;
+    color:black;
+    padding:7px;
+    background-color:grey;
 }
-.toc #leftcol, .toc #rightcol{
-  background-color: yellow;
-  width:310px;
-  float:left;
+.toc #leftcol,
+.toc #rightcol {
+    background-color:yellow;
+    width:310px;
+    float:left;
 }
 .toc div {
-  margin:3px;
-  padding:15px 0 0 0;
-  float:left;
+    margin:3px;
+    padding:15px 0 0 0;
+    float:left;
     background-color:#cecece;
-  width:310px;
-
+    width:310px;
 }
-
 .copyright {
-    font-family: print_clearly_ot, arial, helvetica, sans-serif;
-    letter-spacing: 0pt;
-    word-spacing: 0pt;
-    font-size: 20px;
-    text-align: center;
-    width: 440px;
-    height: 600px;
-    margin: 100px 100px 100px 100px;
+    font-family:print_bold_ot,
+    arial,
+    helvetica,
+    sans-serif;
+    letter-spacing:0pt;
+    word-spacing:0pt;
+    font-size:23px;
+    text-align:center;
+    width:440px;
+    height:600px;
+    margin:100px 100px 100px 100px;
+    line-height:1.5;
 }
 .strong {
-    font-family: print_bold_ot, arial, helvetica, sans-serif;
-      font-size: 25px;
-
+    font-size:26px;
 }
 .legal {
-  text-align:justify;
-  font-size:20px;
-      line-height: 1.5;
-
+    font-size:20px;
+    text-align:justify;
 }
-
 div.FixedPage {
-    height: 1024px;
-    width: 640px;
-    position: relative;
+    height:1024px;
+    width:640px;
+    position:relative;
 }
 div.FixedPage a {
-    display: block;
-    width: 100%;
-    height: 100%;
+    display:block;
+    width:100%;
+    height:100%;
 }
 div.FixedPage div {
-    position: absolute;
+    position:absolute;
 }
 .OnePageOneImage {
-    position: absolute;
-    height: 1024px;
-    width: 640px;
+    position:absolute;
+    height:1024px;
+    width:640px;
 }
 /* Region magnification code starts here */
 
 div.popup-box {
-    position: absolute;
-    display: block;
+    position:absolute;
+    display:block;
     /* invisible unless activated */
-    overflow: hidden;
+    overflow:hidden;
     /* black border and color of the pop-up box */
-    border: 1px solid #000000;
-    background-color: #FFFFEF;
+    border:1px solid #000000;
+    background-color:#FFFFEF;
 }
 /* 
  This container hosts the lightbox and the image.
  */
 
 div.popup-box-parent {
-    width: 100%;
-    height: 100%;
-    display: none;
+    width:100%;
+    height:100%;
+    display:none;
 }
 div.popup-box-lightbox {
     /* the lightbox effect dims the whole page except the popup box */
-    width: 100%;
-    height: 100%;
-    background: #333333;
-    opacity: .8;
+    width:100%;
+    height:100%;
+    background:#333333;
+    opacity:.8;
 }
 /* default magnification of images 150% */
 
 div.popup-box img {
-    position: absolute;
-    height: 1536px;
-    width: 960px;
+    position:absolute;
+    height:1536px;
+    width:960px;
 }
 /*  four magnification areas within a full-screen picture (PORTRAIT 4X LAYOUT) :
 1) top left corner "quadropanel_11"
@@ -147,10 +147,10 @@ the starting point is the top left corner of the page;
 the 'top' and 'left' attributes show where the top left corner of the tap target area is located on the page;
 units are percentages of either width or height (whichever is applicable)
 */
-    top: 0.3%;
-    left: 0.3%;
-    height: 49.7%;
-    width: 49.7%;
+    top:0.3%;
+    left:0.3%;
+    height:49.7%;
+    width:49.7%;
 }
 #quadropanel_11-PopupBox {
     /* this code specifies the location and size of the box that pops up
@@ -160,10 +160,10 @@ the 'top' and 'left' attributes show where the top left corner of the pop-up box
 units are percentages of either width or height (whichever is applicable, 
 remember that each page is 1024 x 600 pixels)
 */
-    top: 0%;
-    left: 0%;
-    height: 74.5%;
-    width: 74.5%;
+    top:0%;
+    left:0%;
+    height:74.5%;
+    width:74.5%;
 }
 #quadropanel_11-PopupBox img {
     /*
@@ -175,65 +175,65 @@ I don't know why, but {in a portrait-oriented ebook, 4 panels per page}
 you need to mulitply the "left" percentage by munus 2 and the "top" percentage by minus 2 and then adjust them slightly until you hit the target.
 (for example, I took the left and top attributes from the "quadropanel_11" class {see above}, multiplied them by -2 and then tested and adjusted them)
 */
-    top: -0.3%;
-    left: -0.3%;
+    top:-0.3%;
+    left:-0.3%;
 }
 /* magnification of top right corner (PORTRAIT 4X LAYOUT) */
 
 #quadropanel_12 {
     /* the meaning of this code is described above for the top left panel */
-    top: 0.3%;
-    left: 50.3%;
-    height: 49.7%;
-    width: 49.7%;
+    top:0.3%;
+    left:50.3%;
+    height:49.7%;
+    width:49.7%;
 }
 #quadropanel_12-PopupBox {
-    top: 0%;
-    left: 25.2%;
-    height: 74.5%;
-    width: 74.5%;
+    top:0%;
+    left:25.2%;
+    height:74.5%;
+    width:74.5%;
 }
 #quadropanel_12-PopupBox img {
-    top: -0.3%;
-    left: -101.3%;
+    top:-0.3%;
+    left:-101.3%;
 }
 /* magnification of bottom left panel (PORTRAIT 4X LAYOUT) */
 
 #quadropanel_21 {
     /* the meaning of this code is described above for the top left panel */
-    top: 50.3%;
-    left: 0.3%;
-    height: 49.7%;
-    width: 49.7%;
+    top:50.3%;
+    left:0.3%;
+    height:49.7%;
+    width:49.7%;
 }
 #quadropanel_21-PopupBox {
-    top: 25.4%;
-    left: 0%;
-    height: 74.5%;
-    width: 74.5%;
+    top:25.4%;
+    left:0%;
+    height:74.5%;
+    width:74.5%;
 }
 #quadropanel_21-PopupBox img {
-    top: -101.4%;
-    left: -0.3%;
+    top:-101.4%;
+    left:-0.3%;
 }
 /* magnification of bottom right panel (PORTRAIT 4X LAYOUT) */
 
 #quadropanel_22 {
     /* the meaning of this code is described above for the top left panel */
-    top: 50.3%;
-    left: 50.3%;
-    height: 49.7%;
-    width: 49.7%;
+    top:50.3%;
+    left:50.3%;
+    height:49.7%;
+    width:49.7%;
 }
 #quadropanel_22-PopupBox {
-    top: 25.4%;
-    left: 25.2%;
-    height: 74.5%;
-    width: 74.5%;
+    top:25.4%;
+    left:25.2%;
+    height:74.5%;
+    width:74.5%;
 }
 #quadropanel_22-PopupBox img {
-    top: -101.4%;
-    left: -101.3%;
+    top:-101.4%;
+    left:-101.3%;
 }
 /* end of code for the PORTRAIT 4X LAYOUT */
 
@@ -254,10 +254,10 @@ the starting point is the top left corner of the page;
 the 'top' and 'left' attributes show where the top left corner of the tap target area is located on the page;
 units are percentages of either width or height (whichever is applicable)
 */
-    top: 0.3%;
-    left: 0.3%;
-    height: 33%;
-    width: 49.7%;
+    top:0.3%;
+    left:0.3%;
+    height:33%;
+    width:49.7%;
 }
 #panel_11-PopupBox {
     /* this code specifies the location and size of the box that pops up
@@ -267,10 +267,10 @@ the 'top' and 'left' attributes show where the top left corner of the pop-up box
 units are percentages of either width or height (whichever is applicable, 
 remember that each page is 1024 x 600 pixels)
 */
-    top: 0%;
-    left: 0%;
-    height: 49.4%;
-    width: 74.6%;
+    top:0%;
+    left:0%;
+    height:49.4%;
+    width:74.6%;
 }
 #panel_11-PopupBox img {
     /*
@@ -282,102 +282,102 @@ I don't know why, but {in a portrait-oriented ebook, 6 panels per page}
 you need to mulitply the "left" percentage by munus 2 and the "top" percentage by minus 3 and then adjust them slightly until you hit the target.
 (for example, I took the left and top attributes from the "panel_11" class {see above}, multiplied them by -2 and -3 respectively, and then tested and adjusted them)
 */
-    top: -0.9%;
-    left: -0.4%;
+    top:-0.9%;
+    left:-0.4%;
 }
 /* magnification of top right corner (PORTRAIT 6X LAYOUT) */
 
 #panel_12 {
     /* the meaning of this code is described above for the top left panel */
-    top: 0.3%;
-    left: 50.3%;
-    height: 33%;
-    width: 49.7%;
+    top:0.3%;
+    left:50.3%;
+    height:33%;
+    width:49.7%;
 }
 #panel_12-PopupBox {
-    top: 0%;
-    left: 25.2%;
-    height: 49.4%;
-    width: 74.6%;
+    top:0%;
+    left:25.2%;
+    height:49.4%;
+    width:74.6%;
 }
 #panel_12-PopupBox img {
-    top: -0.9%;
-    left: -101.3%;
+    top:-0.9%;
+    left:-101.3%;
 }
 /* magnification of center left panel (PORTRAIT 6X LAYOUT) */
 
 #panel_21 {
     /* the meaning of this code is described above for the top left panel */
-    top: 33.6%;
-    left: 0.3%;
-    height: 33%;
-    width: 49.7%;
+    top:33.6%;
+    left:0.3%;
+    height:33%;
+    width:49.7%;
 }
 #panel_21-PopupBox {
-    top: 25.5%;
-    left: 0%;
-    height: 49.4%;
-    width: 74.6%;
+    top:25.5%;
+    left:0%;
+    height:49.4%;
+    width:74.6%;
 }
 #panel_21-PopupBox img {
-    top: -102.3%;
-    left: -0.4%;
+    top:-102.3%;
+    left:-0.4%;
 }
 /* magnification of center right panel (PORTRAIT 6X LAYOUT) */
 
 #panel_22 {
     /* the meaning of this code is described above for the top left panel */
-    top: 33.6%;
-    left: 50.3%;
-    height: 33%;
-    width: 49.7%;
+    top:33.6%;
+    left:50.3%;
+    height:33%;
+    width:49.7%;
 }
 #panel_22-PopupBox {
-    top: 25.5%;
-    left: 25.2%;
-    height: 49.4%;
-    width: 74.6%;
+    top:25.5%;
+    left:25.2%;
+    height:49.4%;
+    width:74.6%;
 }
 #panel_22-PopupBox img {
-    top: -102.3%;
-    left: -101.3%;
+    top:-102.3%;
+    left:-101.3%;
 }
 /* magnification of bottom left corner (PORTRAIT 6X LAYOUT) */
 
 #panel_31 {
     /* the meaning of this code is described above for the top left panel */
-    top: 66.9%;
-    left: 0.3%;
-    height: 33%;
-    width: 49.7%;
+    top:66.9%;
+    left:0.3%;
+    height:33%;
+    width:49.7%;
 }
 #panel_31-PopupBox {
-    top: 50.5%;
-    left: 0%;
-    height: 49.4%;
-    width: 74.6%;
+    top:50.5%;
+    left:0%;
+    height:49.4%;
+    width:74.6%;
 }
 #panel_31-PopupBox img {
-    top: -203.8%;
-    left: -0.4%;
+    top:-203.8%;
+    left:-0.4%;
 }
 /* magnification of bottom right corner (PORTRAIT 6X LAYOUT) */
 
 #panel_32 {
     /* the meaning of this code is described above for the top left panel */
-    top: 66.9%;
-    left: 50.3%;
-    height: 33%;
-    width: 49.7%;
+    top:66.9%;
+    left:50.3%;
+    height:33%;
+    width:49.7%;
 }
 #panel_32-PopupBox {
-    top: 50.5%;
-    left: 25.2%;
-    height: 49.4%;
-    width: 74.6%;
+    top:50.5%;
+    left:25.2%;
+    height:49.4%;
+    width:74.6%;
 }
 #panel_32-PopupBox img {
-    top: -203.8%;
-    left: -101.3%;
+    top:-203.8%;
+    left:-101.3%;
 }
 }
