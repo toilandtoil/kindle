@@ -16,8 +16,7 @@
 	<manifest>
 		<item id="my-cover-image" media-type="image/jpeg" href="images/cover.jpg"/>
 		<item id="Page0title" href="html/Page0.0title.html" media-type="application/xhtml+xml"/>
-        <item id="toc" href="html/TOC.html" media-type="application/xhtml+xml"/>
-
+        
 		<item id="Page0copyright" href="html/Page0.copyright.html" media-type="application/xhtml+xml"/>
 		<item id="Page1" href="html/Page1.html" media-type="application/xhtml+xml"/>
 		<item id="Page2" href="html/Page2.html" media-type="application/xhtml+xml"/>
@@ -56,7 +55,6 @@
 	<spine>
 		<itemref idref="Page0title" />
 		<itemref idref="Page0copyright" />
-        <itemref idref="toc" />
 		<itemref idref="Page1" />
 		<itemref idref="Page2" />
 		<itemref idref="Page3" />

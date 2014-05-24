@@ -14,6 +14,12 @@ altered for my 60 Ways To Leave Your Mother (Alone)
 
 @font-face{
 
+font-family:print_bold_ot;
+ font-style:normal;
+ font-weight:normal;
+ src:url(../fonts/print_bold_ot.otf);
+}
+@font-face{
 font-family:print_clearly_ot;
  font-style:normal;
  font-weight:normal;
@@ -23,77 +29,56 @@ font-family:print_clearly_ot;
 .copyright_background_image {
     background-image: url("../images/Page0.copyright.jpg");
 }
-.copyright,
+
 .toc {
-    font-family: print_clearly_ot, arial, helvetica, sans-serif;
+    font-family: print_bold_ot, arial, helvetica, sans-serif;
+    width:640px;
+  margin:-5px;
 }
-.toc a {
-    text-decoration: none;
+
+
+.toc div a{
+  text-decoration: none;
     font-size: 18px;
+  color:black;
+  padding:7px;
+  background-color:grey;
 }
-
-ul {
-  padding: 0;
-  list-style-type: none;
+.toc #leftcol, .toc #rightcol{
+  background-color: yellow;
+  width:310px;
+  float:left;
 }
+.toc div {
+  margin:3px;
+  padding:15px 0 0 0;
+  float:left;
+    background-color:#cecece;
+  width:310px;
 
-ul li a{
-    padding: 10px 0 0 0;
-    color: gray;
-  font-weight: bold;
-}
-
-ul li {
-    padding: 10px 0 0 0;
-}
-
-ul li:nth-child(odd) a
-{
-  color: black;
 }
 
 .copyright {
-    font-weight: normal;
-    color: #090170;
+    font-family: print_clearly_ot, arial, helvetica, sans-serif;
     letter-spacing: 0pt;
     word-spacing: 0pt;
-    font-size: 25px;
-    text-align: justify;
-    line-height: 1;
+    font-size: 20px;
+    text-align: center;
     width: 440px;
     height: 600px;
     margin: 100px 100px 100px 100px;
 }
+.strong {
+    font-family: print_bold_ot, arial, helvetica, sans-serif;
+      font-size: 25px;
 
-.columncontainer1{
-	width:663px;
-	position:relative;
-	border:0px;
-	background-color:#ffffff;
-	overflow:hidden;
 }
-.columncontainer2{
-	float:left;
-	position:relative;
-	right:330px;
-}
-.columncontent1{
-	float:left;
-	width:320px;
-	position:relative;
-	left:330px;
-	padding:5px;
-	overflow:hidden;
-}
-.columncontent2{
-	float:left;
-	width:320px;
-	position:relative;
-	left:333px;
-	padding:5px;
-	overflow:hidden;
-}
+.legal {
+  text-align:justify;
+  font-size:20px;
+      line-height: 1.5;
 
+}
 
 div.FixedPage {
     height: 1024px;
@@ -394,4 +379,5 @@ you need to mulitply the "left" percentage by munus 2 and the "top" percentage b
 #panel_32-PopupBox img {
     top: -203.8%;
     left: -101.3%;
+}
 }
