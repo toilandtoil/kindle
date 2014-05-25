@@ -1,96 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<package version="2.0" unique-identifier="PrimaryID" xmlns="http://www.idpf.org/2007/opf">
-	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-		<dc:title>60 Ways To Leave Your Mother /(Alone/)</dc:title>
-		<dc:language>en-US</dc:language>
-		<dc:creator>Michael J. Buckley</dc:creator>
-
-		<meta name="cover" content="my-cover-image"/>
-        	<meta name="book-type" content="comic"/>
-		<meta name="RegionMagnification" content="true"/>
-       		<meta name="fixed-layout" content="true"/>
-        	<meta name="orientation-lock" content="portrait"/>
-        	<meta name="original-resolution" content="640x1024"/>
-	</metadata>
-
-	<manifest>
-		<item id="my-cover-image" media-type="image/jpeg" href="images/cover.jpg"/>
-		<item id="Page0title" href="html/Page0.0title.html" media-type="application/xhtml+xml"/>
-        
-		<item id="Page0copyright" href="html/Page0.copyright.html" media-type="application/xhtml+xml"/>
-		<item id="Page1" href="html/Page1.html" media-type="application/xhtml+xml"/>
-		<item id="Page2" href="html/Page2.html" media-type="application/xhtml+xml"/>
-		<item id="Page3" href="html/Page3.html" media-type="application/xhtml+xml"/>
-		<item id="Page4" href="html/Page4.html" media-type="application/xhtml+xml"/>
-		<item id="Page5" href="html/Page5.html" media-type="application/xhtml+xml"/>
-		<item id="Page6" href="html/Page6.html" media-type="application/xhtml+xml"/>
-		<item id="Page7" href="html/Page7.html" media-type="application/xhtml+xml"/>
-		<item id="Page8" href="html/Page8.html" media-type="application/xhtml+xml"/>
-		<item id="Page9" href="html/Page9.html" media-type="application/xhtml+xml"/>
-		<item id="Page10" href="html/Page10.html" media-type="application/xhtml+xml"/>
-		<item id="Page11" href="html/Page11.html" media-type="application/xhtml+xml"/>
-		<item id="Page12" href="html/Page12.html" media-type="application/xhtml+xml"/>
-		<item id="Page13" href="html/Page13.html" media-type="application/xhtml+xml"/>
-		<item id="Page14" href="html/Page14.html" media-type="application/xhtml+xml"/>
-		<item id="Page15" href="html/Page15.html" media-type="application/xhtml+xml"/>
-		<item id="Page16" href="html/Page16.html" media-type="application/xhtml+xml"/>
-		<item id="Page17" href="html/Page17.html" media-type="application/xhtml+xml"/>
-		<item id="Page18" href="html/Page18.html" media-type="application/xhtml+xml"/>
-		<item id="Page19" href="html/Page19.html" media-type="application/xhtml+xml"/>
-		<item id="Page20" href="html/Page20.html" media-type="application/xhtml+xml"/>
-		<item id="Page21" href="html/Page21.html" media-type="application/xhtml+xml"/>
-		<item id="Page22" href="html/Page22.html" media-type="application/xhtml+xml"/>
-		<item id="Page23" href="html/Page23.html" media-type="application/xhtml+xml"/>
-		<item id="Page24" href="html/Page24.html" media-type="application/xhtml+xml"/>
-		<item id="Page25" href="html/Page25.html" media-type="application/xhtml+xml"/>
-		<item id="Page26" href="html/Page26.html" media-type="application/xhtml+xml"/>
-		<item id="Page27" href="html/Page27.html" media-type="application/xhtml+xml"/>
-		<item id="Page28" href="html/Page28.html" media-type="application/xhtml+xml"/>
-		<item id="Page29" href="html/Page29.html" media-type="application/xhtml+xml"/>
-		<item id="Page30" href="html/Page30.html" media-type="application/xhtml+xml"/>
-		
-		<item id="Page999BackCover" href="html/Page999.BackCover.html" media-type="application/xhtml+xml"/>
-	</manifest>
-
-	<spine>
-		<itemref idref="Page0title" />
-		<itemref idref="Page0copyright" />
-		<itemref idref="Page1" />
-		<itemref idref="Page2" />
-		<itemref idref="Page3" />
-		<itemref idref="Page4" />
-		<itemref idref="Page5" />
-		<itemref idref="Page6" />
-		<itemref idref="Page7" />
-		<itemref idref="Page8" />
-		<itemref idref="Page9" />
-		<itemref idref="Page10" />
-		<itemref idref="Page11" />
-		<itemref idref="Page12" />
-		<itemref idref="Page13" />
-		<itemref idref="Page14" />
-		<itemref idref="Page15" />
-		<itemref idref="Page16" />
-		<itemref idref="Page17" />
-		<itemref idref="Page18" />
-		<itemref idref="Page19" />
-		<itemref idref="Page20" />
-		<itemref idref="Page21" />
-		<itemref idref="Page22" />
-		<itemref idref="Page23" />
-		<itemref idref="Page24" />
-		<itemref idref="Page25" />
-		<itemref idref="Page26" />
-		<itemref idref="Page27" />
-		<itemref idref="Page28" />
-		<itemref idref="Page29" />
-		<itemref idref="Page30" />
-		
-
-		<itemref idref="Page999BackCover" />
-	</spine>
-	
-	<guide>
-		<reference type="start" title="Start Reading" href="html/TOC.html"/>
-	</guide>		
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="PrimaryID">
+    <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title>60 Ways To Leave Your Mother /(Alone/)</dc:title>
+        <dc:language>en-US</dc:language>
+        <dc:creator>Michael J. Buckley</dc:creator>
+        <meta content="my-cover-image" name="cover"/>
+        <meta content="comic" name="book-type"/>
+        <meta content="true" name="RegionMagnification"/>
+        <meta content="true" name="fixed-layout"/>
+        <meta content="portrait" name="orientation-lock"/>
+        <meta content="640x1024" name="original-resolution"/>
+        <dc:publisher/>
+        <meta content="horizontal-lr" name="primary-writing-mode"/>
+        <meta content="true" name="region-mag"/>
+        <meta content="#000000" name="ke-border-color"/>
+        <meta content="3" name="ke-border-width"/>
+        <dc:source>KC2/1.150/0b375ac/mac</dc:source>
+    </metadata>
+    <manifest>
+        <item href="images/cover.jpg" id="my-cover-image" media-type="image/jpeg"/>
+        <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+        <item href="misc/ke_book.log" id="ke-book-log" media-type="amazon/data-log"/>
+        <item href="html/Page0.0title.html" id="item-3" media-type="application/xhtml+xml"/>
+        <item href="html/Page0.copyright.html" id="item-4" media-type="application/xhtml+xml"/>
+        <item href="html/Page1.html" id="item-5" media-type="application/xhtml+xml"/>
+        <item href="html/Page2.html" id="item-6" media-type="application/xhtml+xml"/>
+        <item href="html/Page3.html" id="item-7" media-type="application/xhtml+xml"/>
+        <item href="html/Page4.html" id="item-8" media-type="application/xhtml+xml"/>
+        <item href="html/Page5.html" id="item-9" media-type="application/xhtml+xml"/>
+        <item href="html/Page6.html" id="item-10" media-type="application/xhtml+xml"/>
+        <item href="html/Page7.html" id="item-11" media-type="application/xhtml+xml"/>
+        <item href="html/Page8.html" id="item-12" media-type="application/xhtml+xml"/>
+        <item href="html/Page9.html" id="item-13" media-type="application/xhtml+xml"/>
+        <item href="html/Page10.html" id="item-14" media-type="application/xhtml+xml"/>
+        <item href="html/Page11.html" id="item-15" media-type="application/xhtml+xml"/>
+        <item href="html/Page12.html" id="item-16" media-type="application/xhtml+xml"/>
+        <item href="html/Page13.html" id="item-17" media-type="application/xhtml+xml"/>
+        <item href="html/Page14.html" id="item-18" media-type="application/xhtml+xml"/>
+        <item href="html/Page15.html" id="item-19" media-type="application/xhtml+xml"/>
+        <item href="html/Page16.html" id="item-20" media-type="application/xhtml+xml"/>
+        <item href="html/Page17.html" id="item-21" media-type="application/xhtml+xml"/>
+        <item href="html/Page18.html" id="item-22" media-type="application/xhtml+xml"/>
+        <item href="html/Page19.html" id="item-23" media-type="application/xhtml+xml"/>
+        <item href="html/Page20.html" id="item-24" media-type="application/xhtml+xml"/>
+        <item href="html/Page21.html" id="item-25" media-type="application/xhtml+xml"/>
+        <item href="html/Page22.html" id="item-26" media-type="application/xhtml+xml"/>
+        <item href="html/Page23.html" id="item-27" media-type="application/xhtml+xml"/>
+        <item href="html/Page24.html" id="item-28" media-type="application/xhtml+xml"/>
+        <item href="html/Page25.html" id="item-29" media-type="application/xhtml+xml"/>
+        <item href="html/Page26.html" id="item-30" media-type="application/xhtml+xml"/>
+        <item href="html/Page27.html" id="item-31" media-type="application/xhtml+xml"/>
+        <item href="html/Page28.html" id="item-32" media-type="application/xhtml+xml"/>
+        <item href="html/Page29.html" id="item-33" media-type="application/xhtml+xml"/>
+        <item href="html/Page30.html" id="item-34" media-type="application/xhtml+xml"/>
+        <item href="html/Page999.BackCover.html" id="item-35" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="item-3" linear="yes"/>
+        <itemref idref="item-4" linear="yes"/>
+        <itemref idref="item-5" linear="yes"/>
+        <itemref idref="item-6" linear="yes"/>
+        <itemref idref="item-7" linear="yes"/>
+        <itemref idref="item-8" linear="yes"/>
+        <itemref idref="item-9" linear="yes"/>
+        <itemref idref="item-10" linear="yes"/>
+        <itemref idref="item-11" linear="yes"/>
+        <itemref idref="item-12" linear="yes"/>
+        <itemref idref="item-13" linear="yes"/>
+        <itemref idref="item-14" linear="yes"/>
+        <itemref idref="item-15" linear="yes"/>
+        <itemref idref="item-16" linear="yes"/>
+        <itemref idref="item-17" linear="yes"/>
+        <itemref idref="item-18" linear="yes"/>
+        <itemref idref="item-19" linear="yes"/>
+        <itemref idref="item-20" linear="yes"/>
+        <itemref idref="item-21" linear="yes"/>
+        <itemref idref="item-22" linear="yes"/>
+        <itemref idref="item-23" linear="yes"/>
+        <itemref idref="item-24" linear="yes"/>
+        <itemref idref="item-25" linear="yes"/>
+        <itemref idref="item-26" linear="yes"/>
+        <itemref idref="item-27" linear="yes"/>
+        <itemref idref="item-28" linear="yes"/>
+        <itemref idref="item-29" linear="yes"/>
+        <itemref idref="item-30" linear="yes"/>
+        <itemref idref="item-31" linear="yes"/>
+        <itemref idref="item-32" linear="yes"/>
+        <itemref idref="item-33" linear="yes"/>
+        <itemref idref="item-34" linear="yes"/>
+        <itemref idref="item-35" linear="yes"/>
+    </spine>
+    <guide>
+        <reference title="Start Reading" type="start" href="html/TOC.html"/>
+    </guide>
 </package>
