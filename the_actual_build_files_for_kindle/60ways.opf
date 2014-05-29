@@ -91,6 +91,6 @@
         <itemref idref="item-35" linear="yes"/>
     </spine>
     <guide>
-        <reference title="Start Reading" type="start" href="html/TOC.html"/>
+        <reference title="Start Reading" type="start" href="html/Page1.html"/>
     </guide>
 </package>
