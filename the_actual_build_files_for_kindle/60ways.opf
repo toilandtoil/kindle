@@ -48,7 +48,31 @@
 		<item id="Page28" href="html/Page28.html" media-type="application/xhtml+xml"/>
 		<item id="Page29" href="html/Page29.html" media-type="application/xhtml+xml"/>
 		<item id="Page30" href="html/Page30.html" media-type="application/xhtml+xml"/>
-		
+		<item id="Page31" href="html/Page31.html" media-type="application/xhtml+xml"/>
+		<item id="Page32" href="html/Page32.html" media-type="application/xhtml+xml"/>
+		<item id="Page33" href="html/Page33.html" media-type="application/xhtml+xml"/>
+		<item id="Page34" href="html/Page34.html" media-type="application/xhtml+xml"/>
+		<item id="Page35" href="html/Page35.html" media-type="application/xhtml+xml"/>
+		<item id="Page36" href="html/Page36.html" media-type="application/xhtml+xml"/>
+		<item id="Page37" href="html/Page37.html" media-type="application/xhtml+xml"/>
+		<item id="Page38" href="html/Page38.html" media-type="application/xhtml+xml"/>
+		<item id="Page39" href="html/Page39.html" media-type="application/xhtml+xml"/>
+		<item id="Page40" href="html/Page40.html" media-type="application/xhtml+xml"/>
+		<item id="Page41" href="html/Page41.html" media-type="application/xhtml+xml"/>
+		<item id="Page42" href="html/Page42.html" media-type="application/xhtml+xml"/>
+		<item id="Page43" href="html/Page43.html" media-type="application/xhtml+xml"/>
+		<item id="Page44" href="html/Page44.html" media-type="application/xhtml+xml"/>
+		<item id="Page45" href="html/Page45.html" media-type="application/xhtml+xml"/>
+		<item id="Page46" href="html/Page46.html" media-type="application/xhtml+xml"/>
+		<item id="Page47" href="html/Page47.html" media-type="application/xhtml+xml"/>
+		<item id="Page48" href="html/Page48.html" media-type="application/xhtml+xml"/>
+		<item id="Page49" href="html/Page49.html" media-type="application/xhtml+xml"/>
+		<item id="Page50" href="html/Page50.html" media-type="application/xhtml+xml"/>
+		<item id="Page51" href="html/Page51.html" media-type="application/xhtml+xml"/>
+		<item id="Page52" href="html/Page52.html" media-type="application/xhtml+xml"/>
+		<item id="Page53" href="html/Page53.html" media-type="application/xhtml+xml"/>
+		<item id="Page54" href="html/Page54.html" media-type="application/xhtml+xml"/>
+
 		<item id="Page999BackCover" href="html/Page999.BackCover.html" media-type="application/xhtml+xml"/>
 	</manifest>
 
@@ -85,7 +109,31 @@
 		<itemref idref="Page28" />
 		<itemref idref="Page29" />
 		<itemref idref="Page30" />
-		
+		<itemref idref="Page30" />
+		<itemref idref="Page31" />
+		<itemref idref="Page32" />
+		<itemref idref="Page33" />
+		<itemref idref="Page34" />
+		<itemref idref="Page35" />
+		<itemref idref="Page36" />
+		<itemref idref="Page37" />
+		<itemref idref="Page38" />
+		<itemref idref="Page39" />
+		<itemref idref="Page40" />
+		<itemref idref="Page41" />
+		<itemref idref="Page42" />
+		<itemref idref="Page43" />
+		<itemref idref="Page44" />
+		<itemref idref="Page45" />
+		<itemref idref="Page46" />
+		<itemref idref="Page47" />
+		<itemref idref="Page48" />
+		<itemref idref="Page49" />
+		<itemref idref="Page50" />
+		<itemref idref="Page51" />
+		<itemref idref="Page52" />
+		<itemref idref="Page53" />
+		<itemref idref="Page54" />		
 
 		<itemref idref="Page999BackCover" />
 	</spine>
