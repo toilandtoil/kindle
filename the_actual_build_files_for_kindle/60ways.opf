@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package version="2.0" unique-identifier="PrimaryID" xmlns="http://www.idpf.org/2007/opf">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-		<dc:title>60 Ways To Leave Your Mother /(Alone/)</dc:title>
+		<dc:title>60 Ways To Leave Your Mother (Alone)</dc:title>
 		<dc:language>en-US</dc:language>
 		<dc:creator>Michael J. Buckley</dc:creator>
 
@@ -19,6 +19,7 @@
         
 		<item id="Page0copyright" href="html/Page0.copyright.html" media-type="application/xhtml+xml"/>
         <item id="toc" href="html/TOC.html" media-type="application/xhtml+xml"/>
+        <item id="toc2" href="html/TOC2.html" media-type="application/xhtml+xml"/>
 		<item id="Page1" href="html/Page1.html" media-type="application/xhtml+xml"/>
 		<item id="Page2" href="html/Page2.html" media-type="application/xhtml+xml"/>
 		<item id="Page3" href="html/Page3.html" media-type="application/xhtml+xml"/>
@@ -80,6 +81,7 @@
 		<itemref idref="Page0title" />
 		<itemref idref="Page0copyright" />
         <itemref idref="toc" />
+        <itemref idref="toc2" />
 		<itemref idref="Page1" />
 		<itemref idref="Page2" />
 		<itemref idref="Page3" />
