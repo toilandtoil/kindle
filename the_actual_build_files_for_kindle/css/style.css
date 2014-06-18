@@ -37,27 +37,30 @@ font-family:print_clearly_ot;
     helvetica,
     sans-serif;
     width:640px;
-    margin:-5px;
 }
-.toc div a {
-    text-decoration:none;
-    font-size:18px;
-    color:black;
-    padding:7px;
-    background-color:grey;
+.toc a {
+    
+    color:#0066CC;
+    text-align:center;
+    width:250px;
+     background-color:white;
+
 }
 .toc #leftcol,
 .toc #rightcol {
-    background-color:yellow;
-    width:310px;
+    background-color:#FFF7CB;
+    width:280px;
     float:left;
 }
-.toc div {
-    margin:3px;
-    padding:15px 0 0 0;
+.toc #leftcol p,
+.toc #rightcol p {
+  text-decoration:none;
+    font-size:18px;
+    margin:5px;
+    padding:10px;
     float:left;
-    background-color:#cecece;
-    width:310px;
+    border: 1px solid #0066CC;
+  width:240px;
 }
 .copyright {
     font-family:print_bold_ot,
