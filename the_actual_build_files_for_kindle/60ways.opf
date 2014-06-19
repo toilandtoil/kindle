@@ -16,7 +16,6 @@
 	<manifest>
 		<item id="my-cover-image" media-type="image/jpeg" href="images/cover.jpg"/>
 		<item id="Page0title" href="html/Page0.0title.html" media-type="application/xhtml+xml"/>
-        
 		<item id="Page0copyright" href="html/Page0.copyright.html" media-type="application/xhtml+xml"/>
         <item id="toc" href="html/TOC.html" media-type="application/xhtml+xml"/>
         <item id="toc2" href="html/TOC2.html" media-type="application/xhtml+xml"/>
@@ -73,11 +72,12 @@
 		<item id="Page51" href="html/Page51.html" media-type="application/xhtml+xml"/>
 		<item id="Page52" href="html/Page52.html" media-type="application/xhtml+xml"/>
 		<item id="Page53" href="html/Page53.html" media-type="application/xhtml+xml"/>
+		<item id="ncx"    href="html/toc.ncx" media-type="application/x-dtbncx+xml"/>
 
 		<item id="Page999BackCover" href="html/Page999.BackCover.html" media-type="application/xhtml+xml"/>
 	</manifest>
 
-	<spine>
+	<spine toc="ncx">
 		<itemref idref="Page0title" />
 		<itemref idref="Page0copyright" />
         <itemref idref="toc" />
@@ -135,8 +135,8 @@
 		<itemref idref="Page51" />
 		<itemref idref="Page52" />
 		<itemref idref="Page53" />
-
-		<itemref idref="Page999BackCover" />
+		<itemref idref="Page999BackCover"/>
+		<itemref idref="Page999BackCover"/>
 	</spine>
 	
 	<guide>
