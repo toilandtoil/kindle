@@ -17,8 +17,8 @@
 		<item id="my-cover-image" media-type="image/jpeg" href="images/cover.jpg"/>
 		<item id="Page0title" href="html/Page0.0title.html" media-type="application/xhtml+xml"/>
 		<item id="Page0copyright" href="html/Page0.copyright.html" media-type="application/xhtml+xml"/>
-        <item id="toc" href="html/TOC.html" media-type="application/xhtml+xml"/>
-        <item id="toc2" href="html/TOC2.html" media-type="application/xhtml+xml"/>
+        <!--<item id="toc" href="html/TOC.html" media-type="application/xhtml+xml"/>-->
+        <!--<item id="toc2" href="html/TOC2.html" media-type="application/xhtml+xml"/>-->
 		<item id="Page1" href="html/Page1.html" media-type="application/xhtml+xml"/>
 		<item id="Page2" href="html/Page2.html" media-type="application/xhtml+xml"/>
 		<item id="Page3" href="html/Page3.html" media-type="application/xhtml+xml"/>
@@ -80,8 +80,8 @@
 	<spine toc="ncx">
 		<itemref idref="Page0title" />
 		<itemref idref="Page0copyright" />
-        <itemref idref="toc" />
-        <itemref idref="toc2" />
+        <!--<itemref idref="toc" />-->
+        <!--<itemref idref="toc2" />-->
 		<itemref idref="Page1" />
 		<itemref idref="Page2" />
 		<itemref idref="Page3" />
@@ -140,6 +140,6 @@
 	</spine>
 	
 	<guide>
-		<reference type="start" title="Start Reading" href="html/TOC.html"/>
+		<reference type="start" title="Start Reading" href="html/Page1.html"/>
 	</guide>		
 </package>

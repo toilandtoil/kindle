@@ -18,14 +18,14 @@
     <navMap>
         <navPoint id="walk" playOrder="1">
             <navLabel>
-                <text>Go for a walk.</text>
+                <text>Make a toad happy-tat.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
         <navPoint id="walk" playOrder="2">
             <navLabel>
-                <text>Make a toad happy-tat.</text>
+                <text>Go for a walk.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
