@@ -72,9 +72,8 @@
 		<item id="Page51" href="html/Page51.html" media-type="application/xhtml+xml"/>
 		<item id="Page52" href="html/Page52.html" media-type="application/xhtml+xml"/>
 		<item id="Page53" href="html/Page53.html" media-type="application/xhtml+xml"/>
-		<item id="ncx"    href="html/toc.ncx" media-type="application/x-dtbncx+xml"/>
-
-		<item id="Page999BackCover" href="html/Page999.BackCover.html" media-type="application/xhtml+xml"/>
+		<item id="Page54" href="html/Page54.html" media-type="application/xhtml+xml"/>
+        <item id="ncx"    href="html/toc.ncx" media-type="application/x-dtbncx+xml"/>
 	</manifest>
 
 	<spine toc="ncx">
@@ -135,7 +134,7 @@
 		<itemref idref="Page51" />
 		<itemref idref="Page52" />
 		<itemref idref="Page53" />
-		<itemref idref="Page999BackCover"/>
+		<itemref idref="Page54"/>
 	</spine>
 	
 	<guide>
