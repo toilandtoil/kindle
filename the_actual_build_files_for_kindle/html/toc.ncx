@@ -16,273 +16,273 @@
         <text>Buckley, Michael</text>
     </docAuthor>
     <navMap>
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="4">
             <navLabel>
                 <text>Make a toad happy-tat.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="2">
+        <navPoint id="walk" playOrder="5">
             <navLabel>
                 <text>Go for a walk.</text>
             </navLabel>
-            <content src="Page1.html" />
+            <content src="Page2.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="3">
+        <navPoint id="walk" playOrder="6">
             <navLabel>
                 <text>Build a model.</text>
             </navLabel>
-            <content src="Page1.html" />
+            <content src="Page3.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="4">
+        <navPoint id="walk" playOrder="7">
             <navLabel>
                 <text>Draw your sibling a picture.</text>
             </navLabel>
-            <content src="Page1.html" />
+            <content src="Page3.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="8">
             <navLabel>
                 <text>Close your eyes and doodle.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="9">
             <navLabel>
                 <text>Make silly poses on the sidewalk.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="10">
             <navLabel>
                 <text>Read a book.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="11">
             <navLabel>
                 <text>Put on some music and dance.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="12">
             <navLabel>
                 <text>Build an edible tower.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="13">
             <navLabel>
                 <text>Go to the library.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="14">
             <navLabel>
                 <text>Read and find the constellations.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="15">
             <navLabel>
                 <text>Make a family joke book.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="16">
             <navLabel>
                 <text>Bee a bug.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="17">
             <navLabel>
                 <text>Place an apple slice atop an ant hill.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="18">
             <navLabel>
                 <text>Make Christmas ornaments.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="19">
             <navLabel>
                 <text>Make some pasta art.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="20">
             <navLabel>
                 <text>Sketch the plants around your house.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="21">
             <navLabel>
                 <text>Imitate bird calls.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="22">
             <navLabel>
                 <text>Play “zoo” with your friends.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="23">
             <navLabel>
                 <text>Climb a tree.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="24">
             <navLabel>
                 <text>Build a blanket raft.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="25">
             <navLabel>
                 <text>Create a mini house from a shoebox.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="26">
             <navLabel>
                 <text>Make an edible fishtank.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="27">
             <navLabel>
                 <text>Build a blanket fort.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="28">
             <navLabel>
                 <text>Lie in your bed and ponder.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="29">
             <navLabel>
                 <text>Decorate a treasure box and lid.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="30">
             <navLabel>
                 <text>Create your own holiday.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="31">
             <navLabel>
                 <text>Make papier-mâché fruit.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="32">
             <navLabel>
                 <text>Write a scary story to tell around a campfire.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="33">
             <navLabel>
                 <text>Invent a secret code and write a letter to a friend. (Send the key!)</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="34">
             <navLabel>
                 <text>Play catch with someone.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="35">
             <navLabel>
                 <text>Find a pen pal in another country.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="36">
             <navLabel>
                 <text>Make a mobile with recycled materials.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="37">
             <navLabel>
                 <text>Have a happie meal.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="38">
             <navLabel>
                 <text>Make cookies and surprise a neighbor.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="39">
             <navLabel>
                 <text>Visit the art museum.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="40">
             <navLabel>
                 <text>Learn to say your name in another language.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="41">
             <navLabel>
                 <text>Find something from a different country and read about it.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="42">
             <navLabel>
                 <text>Practice cartwheels.</text>
             </navLabel>
@@ -296,140 +296,140 @@
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="43">
             <navLabel>
                 <text>Make a fairy house.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="44">
             <navLabel>
                 <text>Have a puppet show.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="45">
             <navLabel>
                 <text>Make up a song about your pet.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="46">
             <navLabel>
                 <text>Have a treasure hunt.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="47">
             <navLabel>
                 <text>Have an amazin race.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="48">
             <navLabel>
                 <text>Decorate your bike and have your own parade.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="49">
             <navLabel>
                 <text>Write a letter to your favorite relative.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="50">
             <navLabel>
                 <text>Use old pillowcases to have a sack race.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="51">
             <navLabel>
                 <text>Learn your name in sign language.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="52">
             <navLabel>
                 <text>Play hide and seek.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="53">
             <navLabel>
                 <text>Use chalk to measure the lengths of things on a sidewalk.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="54">
             <navLabel>
                 <text>Make a killing jar.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="55">
             <navLabel>
                 <text>Draw the different insects you see in one day.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="56">
             <navLabel>
                 <text>Play soldier in the dirt outside.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="57">
             <navLabel>
                 <text>Throw a fancy party for your pet.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="58">
             <navLabel>
                 <text>Dig for fossils.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="59">
             <navLabel>
                 <text>Write a review of the last movie or book you enjoyed.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="60">
             <navLabel>
                 <text>Start planning your Halloween costume in May.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="61">
             <navLabel>
                 <text>Dig a hole to China. If you’re in China, dig a hole to America.</text>
             </navLabel>
             <content src="Page1.html" />
         </navPoint>
 
-        <navPoint id="walk" playOrder="1">
+        <navPoint id="walk" playOrder="62">
             <navLabel>
                 <text>Go to bed.</text>
             </navLabel>

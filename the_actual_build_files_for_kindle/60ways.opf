@@ -14,7 +14,7 @@
 	</metadata>
 
 	<manifest>
-		<item id="my-cover-image" media-type="image/jpeg" href="images/cover.jpg"/>
+		<item id="my-cover-image" media-type="image/jpeg" href="images/cover/cover.jpg"/>
 		<item id="Page0title" href="html/Page0.0title.html" media-type="application/xhtml+xml"/>
 		<item id="Page0copyright" href="html/Page0.copyright.html" media-type="application/xhtml+xml"/>
         <!--<item id="toc" href="html/TOC.html" media-type="application/xhtml+xml"/>-->
@@ -135,7 +135,6 @@
 		<itemref idref="Page51" />
 		<itemref idref="Page52" />
 		<itemref idref="Page53" />
-		<itemref idref="Page999BackCover"/>
 		<itemref idref="Page999BackCover"/>
 	</spine>
 	
